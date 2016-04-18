@@ -1,0 +1,9 @@
+<?php
+include("includes/header.php");
+if(isset($logado)){
+	include("views/cadastrar_pergunta.php");
+}
+else{
+	include("views/login.php");
+}
+?>
